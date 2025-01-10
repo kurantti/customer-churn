@@ -1,0 +1,22 @@
+---
+title: "Customer Churn Analysis"
+author: "Juha Päällysaho"
+date: "2025-01-11"
+modified: "2025-01-11"
+format: html
+engine: jupyter
+---
+
+```{python}
+import polars as pl
+import plotnine as p9
+
+
+```
+
+```{python}
+df = pl.read_excel("dataset.xlsx")
+
+df
+```
+
